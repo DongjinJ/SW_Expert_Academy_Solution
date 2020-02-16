@@ -11,7 +11,7 @@ int main(){
         string num = to_string(i);              // 문자열로 변환
         int count = 0;
         for(int j = 0;j < num.length();j++){
-            if(num[j] == '3' || num[j] == '6' || num[j] == '9'){                // 각 자리 숫자가 3, 6, 9 일 떄, - 출력  
+            if(num[j] == '3' || num[j] == '6' || num[j] == '9'){                // 각 자리 숫자가 3, 6, 9 일 떄, '-' 출력  
                 printf("-");
                 count++;
             }
